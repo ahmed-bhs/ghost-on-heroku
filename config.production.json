@@ -14,7 +14,7 @@
       "service": "Mailgun",
       "auth": {
         "user": "postmaster@symfony-friendly.fr",
-        "pass": "ec5e31d6e8b7e7e5aa54116cb498396d-9b463597-56d7ceb5"
+        "pass": "ec5e31d6e8bsdfs7e7e5aa54116cb498396d-9b463597-56d7ceb5"
       }
     }
   },
