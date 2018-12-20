@@ -1,0 +1,45 @@
+{
+  "url": "https://www.symfony-friendly.fr",
+  "urlSSL": "https://www.symfony-friendly.fr",
+  "forceAdminSSL": true,
+  "logging": {
+    "level": "info",
+    "transports": [
+      "stdout"
+    ]
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "service": "Mailgun",
+      "auth": {
+        "user": "postmaster@symfony-friendly.fr",
+        "pass": "ec5e31d6e8b7e7e5aa54116cb498396d-9b463597-56d7ceb5"
+      }
+    }
+  },
+  "fileStorage": false,
+  "storage": {},
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "lyl3nln24eqcxxot.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "port": "3306",
+      "user": "tlr2ayewq5w2vshz",
+      "password": "x4apxng4zzpl2da3",
+      "database": "blwqyoukm6nx8ipl"
+    },
+    "pool": {
+      "min": 0,
+      "max": 5
+    },
+    "debug": false
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": "57640"
+  },
+  "paths": {
+    "contentPath": "/app/content/"
+  }
+}
