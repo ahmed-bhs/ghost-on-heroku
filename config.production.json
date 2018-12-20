@@ -9,6 +9,7 @@
     ]
   },
   "mail": {
+    "from": "contact@symfony-friendly.fr",
     "transport": "SMTP",
     "options": {
       "service": "Sendgrid",
