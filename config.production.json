@@ -11,10 +11,10 @@
   "mail": {
     "transport": "SMTP",
     "options": {
-      "service": "Mailgun",
+      "service": "Sendgrid",
       "auth": {
-        "user": "postmaster@symfony-friendly.fr",
-        "pass": "ec5e31d6e8bsdfs7e7e5aa54116cb498396d-9b463597-56d7ceb5"
+        "user": "apiKey",
+        "pass": "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"
       }
     }
   },
